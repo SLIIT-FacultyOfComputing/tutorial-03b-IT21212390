@@ -6,7 +6,9 @@ int main() {
  cout << "No" << "Name" << "Marks" << endl;
  for (int r = 0; r < 5; r++) {
      cout <<  r+1 
+          << "\t"
           <<  names[r]
+          << "\t\t"
           << marks[r] << endl;
  }
 }
